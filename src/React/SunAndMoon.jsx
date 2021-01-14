@@ -13,10 +13,11 @@ const SunAndMoon = () => {
 
     return (
         <div>The Sun and The Moon
-            <img 
-            src={ imageSrc }
-            onMouseOver={ imageOver }
-            onMouseOut={ imageOut} 
+            <img
+                alt="SunAndMoon"
+                src={imageSrc}
+                onMouseOver={imageOver}
+                onMouseOut={imageOut}
             />
         </div>
     )
