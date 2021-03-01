@@ -27,7 +27,7 @@ const TabbedContentStyled = styled.div`
     background-color: teal;
     padding: 20px;
 
-    @media ${mq.tablet} {
+    @media ${mq.desktop} {
         display: flex;
     }
 
